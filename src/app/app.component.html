@@ -1,20 +1,37 @@
 <!--The content below is only a placeholder and can be replaced.-->
-<div style="text-align:center">
-  <h1>
-    Welcome to {{ title }}!
-  </h1>
-  <img width="300" alt="Angular Logo" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNTAgMjUwIj4KICAgIDxwYXRoIGZpbGw9IiNERDAwMzEiIGQ9Ik0xMjUgMzBMMzEuOSA2My4ybDE0LjIgMTIzLjFMMTI1IDIzMGw3OC45LTQzLjcgMTQuMi0xMjMuMXoiIC8+CiAgICA8cGF0aCBmaWxsPSIjQzMwMDJGIiBkPSJNMTI1IDMwdjIyLjItLjFWMjMwbDc4LjktNDMuNyAxNC4yLTEyMy4xTDEyNSAzMHoiIC8+CiAgICA8cGF0aCAgZmlsbD0iI0ZGRkZGRiIgZD0iTTEyNSA1Mi4xTDY2LjggMTgyLjZoMjEuN2wxMS43LTI5LjJoNDkuNGwxMS43IDI5LjJIMTgzTDEyNSA1Mi4xem0xNyA4My4zaC0zNGwxNy00MC45IDE3IDQwLjl6IiAvPgogIDwvc3ZnPg==">
-</div>
-<h2>Here are some links to help you start: </h2>
-<ul>
-  <li>
-    <h2><a target="_blank" rel="noopener" href="https://angular.io/tutorial">Tour of Heroes</a></h2>
-  </li>
-  <li>
-    <h2><a target="_blank" rel="noopener" href="https://github.com/angular/angular-cli/wiki">CLI Documentation</a></h2>
-  </li>
-  <li>
-    <h2><a target="_blank" rel="noopener" href="https://blog.angular.io/">Angular blog</a></h2>
-  </li>
-</ul>
 
+  <div id="header" class="header affix">
+    <div class="container text-center">
+      <a class="sidebar-toggle pull-left btn btn-lg btn-none visible-xs">
+        <span aria-hidden="true" class="icon-menu"></span>
+      </a>
+      <ul class="list-inline hidden-xs list-nav">
+        <li routerLink="about">
+          <a  data-toggle="tooltip" title="" class="smooth" data-original-title="Who's this dude?">About</a>
+        </li>
+        <li>
+          <a href="#portfolio" data-toggle="tooltip" title="" class="smooth" data-original-title="Let's see whatcha got">Portfolio</a>
+        </li>
+        <li>
+          <a href="#blog" data-toggle="tooltip" title="" class="smooth" data-original-title="Got somethin' to say?">Blog</a>
+        </li>
+        <li class="list-item-logo">
+          <a href="#main" class="smooth">
+            <span aria-hidden="true" class="logo"></span>
+          </a>
+        </li>
+        <li routerLink="skills">
+          <a  data-toggle="tooltip" title="" class="smooth" data-original-title="Any cool tricks?">Skills</a>
+        </li>
+        <li>
+          <a href="#work" data-toggle="tooltip" title="" class="smooth" data-original-title="Proof's in the pudding">Work</a>
+        </li>
+        <li>
+          <a href="" class="contact-toggle" data-toggle="tooltip" title="" data-original-title="Let's chat">Contact</a>
+        </li>
+      </ul>
+
+    </div>
+  </div>
+
+<router-outlet></router-outlet>

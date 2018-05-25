@@ -1,0 +1,23 @@
+.cover-img{
+    background:url("../../assets/developer.jfif");
+    //height:500px;
+    text-align: center;
+    color:#fff;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:700px;
+    &.main{
+  
+    .container{
+        padding: 200px 0 150px 0;
+        .page-title {
+            -webkit-transition: all 0.7s ease-in-out;
+            transition: all 0.7s ease-in-out;
+            hr.separator {
+                border-top: 5px solid rgba(255, 255, 255, 0.75);
+                width: 30%;
+            }
+        }
+    }
+}
+}

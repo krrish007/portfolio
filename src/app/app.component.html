@@ -2,36 +2,34 @@
 
   <div id="header" class="header affix">
     <div class="container text-center">
-      <a class="sidebar-toggle pull-left btn btn-lg btn-none visible-xs">
-        <span aria-hidden="true" class="icon-menu"></span>
-      </a>
-      <ul class="list-inline hidden-xs list-nav">
+      <ul class="list-inline">
         <li routerLink="about">
-          <a  data-toggle="tooltip" title="" class="smooth" data-original-title="Who's this dude?">About</a>
+          <a>About</a>
         </li>
-        <li>
-          <a href="#portfolio" data-toggle="tooltip" title="" class="smooth" data-original-title="Let's see whatcha got">Portfolio</a>
+        <li class="disable">
+          <a>Portfolio</a>
         </li>
-        <li>
-          <a href="#blog" data-toggle="tooltip" title="" class="smooth" data-original-title="Got somethin' to say?">Blog</a>
+        <li class="disable">
+          <a>Blog</a>
         </li>
-        <li class="list-item-logo">
-          <a href="#main" class="smooth">
-            <span aria-hidden="true" class="logo"></span>
-          </a>
-        </li>
+        
         <li routerLink="skills">
-          <a  data-toggle="tooltip" title="" class="smooth" data-original-title="Any cool tricks?">Skills</a>
+          <a>Skills</a>
         </li>
-        <li>
-          <a href="#work" data-toggle="tooltip" title="" class="smooth" data-original-title="Proof's in the pudding">Work</a>
+        <li class="disable">
+          <a>Work</a>
         </li>
-        <li>
-          <a href="" class="contact-toggle" data-toggle="tooltip" title="" data-original-title="Let's chat">Contact</a>
+        <li class="disable">
+          <a>Contact</a>
         </li>
       </ul>
 
     </div>
   </div>
+
+  <div class="footer">
+    <div class="container">copyright@ashish dec 2018</div>
+    
+    </div>
 
 <router-outlet></router-outlet>

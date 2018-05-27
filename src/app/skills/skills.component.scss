@@ -1,3 +1,37 @@
 .container{
     background: #7fb0a6;
 }
+.skill-box{
+    text-align: center;
+    margin: auto;
+    padding-top:20px;
+    .skills-conatiner{
+    background-color: #d2d2d2;
+    border: 1px solid #000;
+    height: 20px;
+    border-radius:10px;
+    .skill{
+    background-color: lightcoral;
+    height: 18px;
+    border-radius:10px;
+    }
+
+}
+}
+
+
+.pad-20{
+        padding: 20px;
+}
+
+
+.cover-img{
+    background:url("../../assets/developer.jfif");
+    //height:500px;
+    text-align: center;
+    color:#fff;
+    background-repeat: repeat-y;
+    background-size: cover;
+    height: 1000px;
+    z-index: -1;
+}

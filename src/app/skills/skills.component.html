@@ -1,46 +1,19 @@
-<div class="container">
-  <h3 class="h2">Skills</h3>
-  <p class="text-xxl">Works on varous frontend and backend technologies like Angular2/4/5, AangularJS, NOdeJS, Webpack, Typescript, Javascript, HTML5, CSS3 </p>
-  <div class="well text-xl push-top">
-    He is very passinate about learning new technologies.
-  </div>
-  <div class="row text-left">
-    <div class="col-sm-8 hidden-xs">
-      <h4 class="page-header">Skill Distribution</h4>
-      </div>
-    <div class="col-sm-4">
-      <h4 class="page-header">Focus</h4>
-      <div class="list-group list-group-striped push-top">
-        <div class="list-group-item">
-          <div class="text-medium">UI/UX DESIGN</div>
-          
-        </div>
-        <div class="list-group-item">
-          <div class="text-medium">SRCRIPTING LANGUAGE</div>
-         
-        </div>
-        <div class="list-group-item">
-          <div class="text-medium">RESPONSIVE LAYOUT DESIGN</div>
-          
-        </div>
-        <div class="list-group-item">
-          <div class="text-medium">WEB DESIGN</div>
-          
-        </div>
-        <div class="list-group-item">
-          <div class="text-medium">CONTENT</div>
-         
-        </div>
-        <div class="list-group-item">
-          <div class="text-medium">USER EXPERIENCE</div>
-         
-        </div>
-        <div class="list-group-item">
-          <div class="text-medium">BUILD TOOLS</div>
-         
+<div class="cover-img main">
+  <div class="pad-20">
+    <h3>Skills out of total 5.5 year of exp</h3>
+    <div class="skill-box">
+
+      <div *ngFor="let itm of skillsList">
+        <p>{{itm.skill}}</p>
+        
+        <div class="skills-conatiner">
+          <div class="skill" [style.width.%]="(itm.exp*10)">
+
+          </div>
         </div>
       </div>
+
     </div>
+    
   </div>
-  <ng-progress></ng-progress>
 </div>

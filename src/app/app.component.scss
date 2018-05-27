@@ -1,5 +1,4 @@
 
-
 .header {
     top: 0;
     left: 0;
@@ -33,4 +32,21 @@
         }
     }
     
+}
+
+.footer{
+    background-color: #000;
+    color:#fff;
+    text-align: center;
+        position: fixed;
+    bottom: 0;
+    padding: 10px;
+        left: 0;
+    right: 0;
+}
+
+
+.disable{
+    opacity: 0.7;
+pointer-events: none;
 }

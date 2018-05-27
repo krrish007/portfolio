@@ -5,19 +5,24 @@
     color:#fff;
     background-repeat: no-repeat;
     background-size: cover;
-    height:700px;
-    &.main{
-  
-    .container{
-        padding: 200px 0 150px 0;
-        .page-title {
-            -webkit-transition: all 0.7s ease-in-out;
-            transition: all 0.7s ease-in-out;
-            hr.separator {
-                border-top: 5px solid rgba(255, 255, 255, 0.75);
-                width: 30%;
-            }
-        }
+    height: 600px;
+    width: 100%;
+    z-index: -1;
+    .about-content{
+        margin: auto;
+        text-align: center;
     }
+
+    .top-150{
+        padding-top:150px;
+    }
+    
 }
-}
+.more-btn{
+        text-align: center;
+            cursor: pointer;
+    }
+
+    .cursor-pointer{
+        cursor: pointer;
+    }
